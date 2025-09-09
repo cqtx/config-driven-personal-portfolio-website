@@ -1,0 +1,178 @@
+{
+  "personal": {
+    "name": "John Doe",
+    "navigationName": "YourSite.com",
+    "title": "Software Engineer",
+    "subtitle": "Modern Web Development",
+    "email": "am9obi5kb2VAZXhhbXBsZS5jb20=",
+    "location": "Your City, State"
+  },
+  "pages": {
+    "home": {
+      "title": "John Doe - Software Engineer | Modern Web Development",
+      "heroTitle": "John Doe\\nSoftware Engineer\\nModern Web Development",
+      "heroDescription": "Creating Innovative Web Solutions with Modern Technologies.",
+      "metaDescription": "Software Engineer specializing in modern web development - Professional portfolio and resume",
+      "metaKeywords": "JavaScript, React, Node.js, Web Development, Full Stack"
+    },
+    "about": {
+      "title": "About Me",
+      "professionalBackground": "As a Software Engineer, I focus on creating user-friendly web applications using modern frameworks and best practices. I enjoy working with both frontend and backend technologies to build complete solutions that solve real-world problems.",
+      "developmentPhilosophy": "I believe in writing clean, maintainable code and following industry best practices. My approach emphasizes collaborative development, continuous learning, and creating solutions that provide genuine value to users.",
+      "careerObjectives": "Passionate developer with extensive experience in full-stack development, seeking to contribute to innovative projects while continuing to grow and adapt with emerging technologies. I bring both technical expertise and a collaborative mindset to every project."
+    }
+  },
+  "skills": {
+    "frontend": [
+      "Languages: JavaScript, TypeScript, HTML5, CSS3",
+      "Frameworks: React, Vue.js, Angular",
+      "Styling: Sass, Tailwind CSS, Bootstrap",
+      "Build Tools: Webpack, Vite, Parcel"
+    ],
+    "backend": [
+      "Runtime: Node.js, Express.js",
+      "Databases: PostgreSQL, MongoDB, MySQL",
+      "APIs: REST, GraphQL",
+      "Tools: Postman, Git, VS Code"
+    ]
+  },
+  "projects": [
+    {
+      "id": "ecommerce-platform",
+      "title": "E-Commerce Platform",
+      "featured": true,
+      "description": "A full-featured online shopping platform with product catalog, shopping cart, payment integration, and admin dashboard. Built with modern web technologies.",
+      "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
+      "timeline": "6-8 weeks development cycle",
+      "approach": "Component-based architecture with RESTful API design and responsive UI.",
+      "links": {
+        "source": "https://github.com/yourusername/ecommerce-platform",
+        "demo": "https://shop-demo.com"
+      }
+    },
+    {
+      "id": "weather-dashboard",
+      "title": "Weather Dashboard",
+      "featured": false,
+      "description": "An interactive weather application providing current conditions, forecasts, and location-based weather data with beautiful visualizations.",
+      "technologies": ["Vue.js", "Chart.js", "Weather API", "CSS3", "LocalStorage"],
+      "timeline": "2-3 weeks development cycle",
+      "approach": "Data visualization with third-party API integration and responsive design",
+      "links": {
+        "source": "https://github.com/yourusername/weather-app",
+        "demo": "https://weather-dashboard-demo.com"
+      }
+    }
+  ],
+  "contact": {
+    "email": {
+      "address": "am9obi5kb2VAZXhhbXBsZS5jb20=",
+      "display": "Email",
+      "obfuscated": true
+    },
+    "resume": {
+      "url": "assets/resume.pdf",
+      "display": "Download PDF"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/johndoe",
+      "display": "Professional Profile"
+    },
+    "github": {
+      "url": "https://github.com/johndoe", 
+      "display": "Code Portfolio"
+    },
+    "blog": {
+      "url": "https://www.yoursite.com/blog",
+      "display": "Technical Articles"
+    },
+    "x": {
+      "url": "https://x.com/johndoe",
+      "display": "Latest Updates"
+    }
+  },
+  "theme": {
+    "activeTheme": "formal",
+    "gradients": {
+      "hero": {
+        "direction": "135deg",
+        "colors": ["#1a202c", "#2d3748", "#4a5568", "#718096", "#a0aec0"]
+      },
+      "about": {
+        "direction": "135deg",
+        "colors": ["#2c5282", "#3182ce", "#4299e1", "#63b3ed", "#90cdf4"]
+      },
+      "projects": {
+        "direction": "135deg",
+        "colors": ["#553c9a", "#7c3aed", "#8b5cf6", "#a78bfa", "#c4b5fd"]
+      },
+      "contact": {
+        "direction": "135deg",
+        "colors": ["#1a202c", "#2d3748", "#4a5568", "#718096", "#a0aec0"]
+      }
+    },
+    "presets": {
+      "ocean": {
+        "name": "Ocean Breeze",
+        "hero": ["#134e4a", "#0f766e", "#14b8a6", "#2dd4bf", "#5eead4"],
+        "about": ["#0c4a6e", "#0284c7", "#0ea5e9", "#38bdf8", "#7dd3fc"],
+        "projects": ["#1e3a8a", "#3b82f6", "#60a5fa", "#93c5fd", "#dbeafe"],
+        "contact": ["#083344", "#164e63", "#0e7490", "#0891b2", "#06b6d4"]
+      },
+      "sunset": {
+        "name": "Golden Sunset", 
+        "hero": ["#991b1b", "#dc2626", "#ef4444", "#f87171", "#fca5a5"],
+        "about": ["#dc2626", "#ea580c", "#f59e0b", "#eab308", "#facc15"],
+        "projects": ["#7c2d12", "#ea580c", "#f97316", "#fb923c", "#fed7aa"],
+        "contact": ["#7c2d12", "#a16207", "#ca8a04", "#eab308", "#facc15"]
+      },
+      "forest": {
+        "name": "Forest Green",
+        "hero": ["#052e16", "#14532d", "#166534", "#16a34a", "#22c55e"],
+        "about": ["#14532d", "#16a34a", "#22c55e", "#4ade80", "#86efac"],
+        "projects": ["#365314", "#65a30d", "#84cc16", "#a3e635", "#d9f99d"],
+        "contact": ["#14532d", "#365314", "#4d7c0f", "#65a30d", "#84cc16"]
+      },
+      "midnight": {
+        "name": "Midnight Blue",
+        "hero": ["#020617", "#0f172a", "#1e293b", "#334155", "#475569"],
+        "about": ["#0f172a", "#1e293b", "#334155", "#475569", "#64748b"],
+        "projects": ["#1e1b4b", "#312e81", "#3730a3", "#4338ca", "#6366f1"],
+        "contact": ["#0c1222", "#1e293b", "#1e40af", "#3b82f6", "#60a5fa"]
+      },
+      "shadow": {
+        "name": "Shadow Black",
+        "hero": ["#000000", "#0a0a0a", "#171717", "#262626", "#404040"],
+        "about": ["#000000", "#1f1f1f", "#2d2d2d", "#404040", "#525252"],
+        "projects": ["#0a0a0a", "#171717", "#262626", "#404040", "#525252"],
+        "contact": ["#000000", "#111111", "#1f1f1f", "#2d2d2d", "#404040"]
+      },
+      "formal": {
+        "name": "Professional Formal",
+        "hero": ["#1e293b", "#334155", "#475569", "#64748b", "#94a3b8"],
+        "about": ["#0f172a", "#1e293b", "#334155", "#475569", "#64748b"],
+        "projects": ["#4c4464", "#5b5577", "#6b678a", "#7b799d", "#8b8bb0"],
+        "contact": ["#374151", "#4b5563", "#6b7280", "#9ca3af", "#d1d5db"]
+      }
+    }
+  },
+  "seo": {
+    "siteName": "John Doe - Software Engineer",
+    "siteUrl": "https://www.yoursite.com",
+    "author": "John Doe",
+    "twitterHandle": "@johndoe",
+    "linkedinProfile": "https://www.linkedin.com/in/johndoe",
+    "favicon": "assets/favicon.ico"
+  },
+  "analytics": {
+    "googleAnalyticsId": "",
+    "enableTracking": false
+  },
+  "buildInfo": {
+    "version": "1.0.0",
+    "buildDate": "2025-01-01",
+    "aiAssisted": true,
+    "tools": ["Modern Web Development", "JavaScript Frameworks"],
+    "timeline": "Iterative development with modern tools"
+  }
+}

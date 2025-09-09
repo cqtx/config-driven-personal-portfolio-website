@@ -1,0 +1,17 @@
+PLACEHOLDER FOR RESUME PDF
+
+This file serves as a placeholder for your actual resume PDF.
+
+To complete your website setup:
+1. Replace this file with your actual resume PDF named "resume.pdf"
+2. Update the links in config.json if you prefer to link to an external resume website
+3. Update all contact information in config.json with your actual details
+
+The resume link is configured in:
+- config.json (contact.resume.url)
+- index.html (multiple references to "assets/resume.pdf")
+
+Make sure your resume PDF is:
+- Professional and up-to-date
+- Optimized for web viewing
+- Named exactly "resume.pdf" (or update the config accordingly)
