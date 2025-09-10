@@ -107,6 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
             renderSkillsSection(config.skills);
             renderProjects(config.projects);
             renderContactSection(config.contact);
+            renderFooter(config.personal);
             renderFavicon(config.seo);
             renderTheme(config.theme);
             
@@ -422,6 +423,16 @@ document.addEventListener('DOMContentLoaded', function() {
         const xLink = document.querySelector('a[href*="x.com/placeholder"]');
         if (xLink && contactConfig.x) {
             xLink.href = contactConfig.x.url;
+        }
+    }
+
+    function renderFooter(personalConfig) {
+        if (!personalConfig) return;
+        
+        // Update footer text with personal information
+        const footerText = document.querySelector('.footer p');
+        if (footerText && personalConfig.name && personalConfig.title) {
+            footerText.textContent = `© 2025 ${personalConfig.name} - ${personalConfig.title}. Built with AI-enhanced development.`;
         }
     }
 
