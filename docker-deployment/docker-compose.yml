@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  portfolio-website:
+    build:
+      context: ..
+      dockerfile: docker-deployment/Dockerfile
+    ports:
+      - "8000:80"
+    restart: unless-stopped
+    container_name: portfolio-website
+    volumes:
+      - ../config.json:/usr/share/nginx/html/config.json:ro
