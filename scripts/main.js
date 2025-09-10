@@ -389,40 +389,44 @@ document.addEventListener('DOMContentLoaded', function() {
             emailText.textContent = decodedEmail;
         }
         
-        // Update resume link
-        const resumeLink = document.querySelector('a[href*="resume"]');
-        if (resumeLink && contactConfig.resume) {
-            resumeLink.href = contactConfig.resume.url;
+        // Update resume links
+        const resumeDownloadLink = document.querySelector('.resume-download');
+        if (resumeDownloadLink && contactConfig.resume) {
+            resumeDownloadLink.href = contactConfig.resume.url;
+        }
+        
+        const resumeContactLink = document.querySelector('.resume-contact');
+        if (resumeContactLink && contactConfig.resume) {
+            resumeContactLink.href = contactConfig.resume.url;
         }
         
         // Update LinkedIn link
-        const linkedinLink = document.querySelector('a[href*="linkedin"]');
-        if (linkedinLink && contactConfig.linkedin) {
-            linkedinLink.href = contactConfig.linkedin.url;
+        const linkedinContactLink = document.querySelector('.linkedin-contact');
+        if (linkedinContactLink && contactConfig.linkedin) {
+            linkedinContactLink.href = contactConfig.linkedin.url;
         }
         
-        // Update GitHub link - using more specific selector to target contact section
-        const githubLink = document.querySelector('a[href*="github.com/yourprofile"]');
-        if (githubLink && contactConfig.github) {
-            githubLink.href = contactConfig.github.url;
+        // Update GitHub links
+        const githubContactLink = document.querySelector('.github-contact');
+        if (githubContactLink && contactConfig.github) {
+            githubContactLink.href = contactConfig.github.url;
         }
         
-        // Update projects section GitHub link
-        const projectsGithubLink = document.querySelector('.projects-footer a[href="https://github.com"]');
-        if (projectsGithubLink && contactConfig.github) {
-            projectsGithubLink.href = contactConfig.github.url;
+        const githubProjectsLink = document.querySelector('.github-projects');
+        if (githubProjectsLink && contactConfig.github) {
+            githubProjectsLink.href = contactConfig.github.url;
         }
         
-        // Update blog link - using more specific selector
-        const blogLink = document.querySelector('a[href*="your-blog-url.com"]');
-        if (blogLink && contactConfig.blog) {
-            blogLink.href = contactConfig.blog.url;
+        // Update blog link
+        const blogContactLink = document.querySelector('.blog-contact');
+        if (blogContactLink && contactConfig.blog) {
+            blogContactLink.href = contactConfig.blog.url;
         }
         
         // Update X link
-        const xLink = document.querySelector('a[href*="x.com/placeholder"]');
-        if (xLink && contactConfig.x) {
-            xLink.href = contactConfig.x.url;
+        const xContactLink = document.querySelector('.x-contact');
+        if (xContactLink && contactConfig.x) {
+            xContactLink.href = contactConfig.x.url;
         }
     }
 
