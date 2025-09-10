@@ -115,7 +115,19 @@ The website includes email obfuscation for protection:
 
 ## 🌐 Deployment
 
-### Recommended Options
+### Docker Deployment
+
+For containerized deployment with Docker:
+
+📋 **See [docker-deployment/DOCKER-README.md](docker-deployment/DOCKER-README.md) for complete Docker deployment instructions**
+
+Quick start:
+```bash
+cd docker-deployment
+docker compose up -d
+```
+
+### Recommended Hosting Options
 
 - **Netlify**: Connect to GitHub and deploy automatically
 - **Vercel**: Import project and deploy with one click
